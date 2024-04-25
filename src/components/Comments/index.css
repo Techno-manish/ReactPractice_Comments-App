@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bgContainer {
+  height: 100vh;
+  padding: 5vh;
+}
+.mainHeading {
+  font-size: 40px;
+}
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.formControl {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+.para {
+  font-size: 20px;
+}
+.button {
+  align-self: flex-start;
+  padding: 10px 20px;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.number {
+  padding: 5px 10px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+}
+.commentsContainer {
+  padding-left: 0px;
+  margin-left: 0px;
+}
